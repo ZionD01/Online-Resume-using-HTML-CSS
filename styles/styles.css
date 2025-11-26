@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  background: rgb(46, 46, 46);
+  font-family: Helvetica, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+#main_container {
+    background: rgb(47, 47, 47);
+}
+
+
+#section1 {
+    display:flex;
+    border: 2px solid cyan;
+    color: white;
+
+}
+
+#box1 {
+    display: flex;
+
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+#box2 {
+
+    border: 2px solid rgb(255, 228, 205);
+
+}
+
+#box3 {
+
+    border: 2px solid rgb(241, 248, 213);
+
+}
