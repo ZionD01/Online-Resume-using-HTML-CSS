@@ -1,91 +1,132 @@
 html,
 body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  box-sizing: border-box;
-  background: rgb(0, 0, 0);
-  font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    background: rgb(0, 0, 0);
+    font-family: Outfit;
+    line-height: 1.5;
+    letter-spacing: 0.3px;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 #main_container {
-    background: rgb(47, 47, 47);
+
+    background: rgba(47, 47, 47, 0.785);
     margin: 20px;
     padding: 15px;
-    border-radius: 10px;;
+    border-radius: 10px;
+
 }
 
 
 #section1 {
-    display:flex;
-    border: 2px solid cyan;
+
+    display: flex;
+    /* border: 2px solid cyan; */
     color: white;
+    flex-wrap: wrap;
 
 }
 
+/* Image */
 #image-box {
+    display: flex;
+    border: 5px solid rgba(40, 40, 40, 0.649);
+    border-radius: 5px;
+    background: url(/images/profile\ pic.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    margin-left: 20px;
+    margin-right: 15px;
+    align-self: center;
 
-    border: 2px solid white;
-    background: white;
-    width: 80px;
-    height: 80px;
 
+}
+
+#Name_Title-div {
+
+    margin-left: 10px;
 
 }
 
 #box1 {
-    display: flex;
 
-    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    flex-grow: 2;
+    /* border: 2px solid rgb(255, 255, 255); */
+    justify-content: left;
+    
 
 }
 
 #box2 {
 
-    border: 2px solid rgb(255, 228, 205);
+    /* border: 2px solid rgb(255, 228, 205); */
     display: flex;
     font-size: small;
-
+    flex-grow: 1;
+    justify-content: center;
+    
 }
 
 #box3 {
 
-    border: 2px solid rgb(241, 248, 213);
+    /* border: 2px solid rgba(241, 248, 213, 0.095); */
     font-size: small;
     color: rgba(255, 255, 255, 0.649);
+    margin-left: 20px;
 
 }
 
+/* Name */
 #box1 h1 {
 
-    margin-bottom: 5px;
+    margin-bottom: 2px;
+
 }
 
+/* Title */
 #box1 p {
+
     color: rgb(33, 199, 255);
     margin: 0;
+    font-size: 18px;
     
+
 }
 
+/* Box 2 */
 #Subjects p {
 
     text-align: right;
     font-weight: bold;
+    margin: 5px;
+
 }
 
+/* Box 2 */
 #Information p {
 
     text-align: left;
     color: rgba(255, 255, 255, 0.684);
+    margin: 5px;
+
 }
 
+/* Box 2 */
 #Information a {
+
     color: rgba(33, 199, 255, 0.618);
     text-decoration: none;
+    margin-left: 5px;
+
 }
